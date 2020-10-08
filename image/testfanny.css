@@ -1,0 +1,187 @@
+
+ html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p {
+  font-size: 16px;
+}
+.block{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 60px;
+}
+
+a{
+  font-size: 20px;
+}
+/*SECTION EN GENERAL*/ 
+
+section { 
+height: 1000px; 
+box-sizing: border-box;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center; 
+flex-direction: column;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+/*MENU*/ 
+#boutonMenu{
+  background-color: black;
+  border: dashed 1px white;
+  width: 110px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+  text-transform: uppercase;
+  font-size: 18px;
+  margin-left: 1450px;
+  margin-top: 20px;
+}
+.dropdown-menu{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 14px;
+}
+ /*1SECTION*/
+ .introduction{ 
+  background-image: url(image/TABLETTE.jpg); 
+}
+ /*LOGO ANIME*/
+ #animated-logo{
+width: 40%;
+transform: translate(3%,50%);
+margin: auto;
+/* animation: bounce 0.35s ease infinite alternate;   */
+
+} 
+@keyframes bounce{ from {transform: translateY(0);} to {transform: translateY(-20px)} ;}
+.container main{
+max-width: 1200px;
+}
+/*CHEVRON*/
+.arrow-top{
+margin-left: 1080px;
+}
+  
+.big-arrow{
+background-image: url(./image/chevron.svg); 
+width: 100px;
+height: 90px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: contain;
+margin: auto;
+margin-top: 300px;
+ }
+.big-arrow:hover{
+animation: bounce 0.45s ease infinite alternate; 
+  
+  }
+ /*SECTION QUI*/
+.float-block{
+background-image: url(./image/pois-violet.svg);
+height: 300px;
+background-repeat: repeat;
+background-size: cover;
+background-size: 1%;
+}
+.float-word{
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 120px;
+text-shadow:rgba(131, 117, 166, 0.7) 10px 1px;
+line-height: 150px;  
+text-align: center;
+}
+
+.float-squared{
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 60px;
+margin: auto;
+text-align: center;
+line-height: 60px;
+background-color: white;
+border: 1px solid #393054;
+width: 200px;
+height: 70px;
+}
+.float-image{
+width: 50%;
+margin: auto;
+margin-top: -590px;
+}
+
+.box{
+position: relative;
+margin: auto;
+margin-top: -550px;
+background-color: rgba(0, 0, 0, 0.1);
+width: 700px;
+height: 400px;
+text-align: justify;
+padding: 40px;
+}
+/* Animation */
+/* 
+ .float-word {
+  opacity: 0;
+  transition: all 0.8s linear;
+}
+.fade-in {
+  opacity: 1;
+} */ 
+.box1{
+  opacity: 0;
+  transition: all 0.4s linear;
+}
+.fade-in {
+  opacity: 1;
+} 
+.pois-blanc{
+  background-color: rgba(255, 241, 0, 0.3);
+  width: 370px;
+  height: 900px;
+  margin-top: -400px;
+  background-image: url(./image/pois-blanc.svg);
+}
+
+.purple-dot{
+  background-image: url(./image/pois-violet.svg);
+  width: 700px;
+  height: 550px;
+  background-repeat: repeat;
+  background-size: cover;
+  background-size: 3%;
+  margin-left: 200px;
+  margin-top: -500px;
+  }
+  .qui{
+    background-image: url(./image/pois-violet.svg);
+    width:600px ;
+    height: 500px;
+    background-repeat: repeat;
+    margin-left: 100px;
+    opacity: 0;
+    transition: all 0.8s linear;
+  
+  }
+  .stripe{
+    background-image: url(./image/rayure-jaune-gris.svg);
+    width: 1280px;
+    height: 45px;
+    background-size: cover;
+    background-repeat: repeat;
+    margin-top: -500px;
+    margin-left: 420px;
+  }
+ 
+  .fade-in {
+    opacity: 1;
+  }

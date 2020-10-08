@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="298.383px" height="21.335px" viewBox="0 0 298.383 21.335" enable-background="new 0 0 298.383 21.335"
+	 xml:space="preserve">
+<pattern  x="-831.684" y="-283.945" width="22.844" height="26.238" patternUnits="userSpaceOnUse" id="New_Pattern_Swatch_12" viewBox="0 -26.238 22.844 26.238" overflow="visible">
+	<g>
+		<polygon fill="none" points="0,-26.238 22.844,-26.238 22.844,0 0,0 		"/>
+		<path fill="#FFFFFF" d="M8.984-21.75c0,2.478-2.012,4.495-4.49,4.495C2.012-17.255,0-19.272,0-21.75
+			c0-2.477,2.012-4.488,4.494-4.488C6.973-26.238,8.984-24.227,8.984-21.75z"/>
+		<path fill="#FFFFFF" d="M20.068-7.571c0,2.483-2.012,4.489-4.494,4.489c-2.477,0-4.488-2.006-4.488-4.489
+			c0-2.477,2.012-4.488,4.488-4.488C18.057-12.06,20.068-10.048,20.068-7.571z"/>
+	</g>
+</pattern>
+<pattern  x="-831.684" y="-283.945" width="81.781" height="24.193" patternUnits="userSpaceOnUse" id="New_Pattern_Swatch_8" viewBox="18.67 -24.193 81.781 24.193" overflow="visible">
+	<g>
+		<polygon fill="none" points="18.67,-24.193 100.451,-24.193 100.451,0 18.67,0 		"/>
+		<g>
+			<defs>
+				<rect id="SVGID_1_" x="18.67" y="-24.193" width="81.781" height="24.193"/>
+			</defs>
+			<clipPath id="SVGID_2_">
+				<use xlink:href="#SVGID_1_"  overflow="visible"/>
+			</clipPath>
+			<polygon clip-path="url(#SVGID_2_)" fill="#FFFFFF" points="117.807,-12.098 0,-12.098 0,-24.193 117.807,-24.193 			"/>
+			<polygon clip-path="url(#SVGID_2_)" fill="#E6E7E8" points="117.807,0 0,0 0,-12.098 117.807,-12.098 			"/>
+			
+				<line clip-path="url(#SVGID_2_)" fill="none" stroke="#F9ED32" stroke-miterlimit="10" x1="0" y1="-12.098" x2="117.807" y2="-12.098"/>
+		</g>
+	</g>
+</pattern>
+<pattern  id="SVGID_3_" xlink:href="#New_Pattern_Swatch_12" patternTransform="matrix(1 0 0 1 -10.9463 -0.8345)">
+</pattern>
+<rect x="-605.035" y="-36.257" fill="url(#SVGID_3_)" width="144.469" height="345.865"/>
+<g>
+	<rect x="27.895" y="101.055" fill="none" width="50.6" height="58.119"/>
+	<path fill="#FFFFFF" d="M47.795,110.997c0,5.488-4.455,9.957-9.945,9.957c-5.499,0-9.955-4.469-9.955-9.957
+		c0-5.486,4.456-9.942,9.955-9.942C43.34,101.055,47.795,105.511,47.795,110.997z"/>
+	<path fill="#FFFFFF" d="M72.347,142.403c0,5.501-4.456,9.943-9.954,9.943c-5.486,0-9.942-4.442-9.942-9.943
+		c0-5.486,4.456-9.942,9.942-9.942C67.891,132.461,72.347,136.917,72.347,142.403z"/>
+</g>
+<pattern  id="SVGID_4_" xlink:href="#New_Pattern_Swatch_8" patternTransform="matrix(0.1814 0.3018 -0.0818 0.6696 -6298.5239 -332.6338)">
+</pattern>
+<rect fill="url(#SVGID_4_)" width="298.383" height="21.335"/>
+</svg>

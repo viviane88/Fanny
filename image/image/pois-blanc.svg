@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="50.6px" height="58.119px" viewBox="0 0 50.6 58.119" enable-background="new 0 0 50.6 58.119" xml:space="preserve">
+<pattern  x="-859.578" y="-385" width="22.844" height="26.238" patternUnits="userSpaceOnUse" id="New_Pattern_Swatch_12" viewBox="0 -26.238 22.844 26.238" overflow="visible">
+	<g>
+		<polygon fill="none" points="0,-26.238 22.844,-26.238 22.844,0 0,0 		"/>
+		<path fill="#FFFFFF" d="M8.984-21.75c0,2.478-2.012,4.495-4.49,4.495C2.012-17.255,0-19.272,0-21.75
+			c0-2.477,2.012-4.488,4.494-4.488C6.973-26.238,8.984-24.227,8.984-21.75z"/>
+		<path fill="#FFFFFF" d="M20.068-7.571c0,2.483-2.012,4.489-4.494,4.489c-2.477,0-4.488-2.006-4.488-4.489
+			c0-2.477,2.012-4.488,4.488-4.488C18.057-12.06,20.068-10.048,20.068-7.571z"/>
+	</g>
+</pattern>
+<pattern  id="SVGID_1_" xlink:href="#New_Pattern_Swatch_12" patternTransform="matrix(1 0 0 1 -10.9463 -0.8345)">
+</pattern>
+<rect x="-632.93" y="-137.312" fill="url(#SVGID_1_)" width="144.469" height="345.865"/>
+<g>
+	<rect fill="none" width="50.6" height="58.119"/>
+	<path fill="#FFFFFF" d="M19.9,9.942c0,5.488-4.455,9.957-9.945,9.957C4.456,19.898,0,15.43,0,9.942C0,4.456,4.456,0,9.955,0
+		C15.445,0,19.9,4.456,19.9,9.942z"/>
+	<path fill="#FFFFFF" d="M44.452,41.349c0,5.501-4.456,9.943-9.954,9.943c-5.486,0-9.942-4.442-9.942-9.943
+		c0-5.486,4.456-9.942,9.942-9.942C39.996,31.407,44.452,35.863,44.452,41.349z"/>
+</g>
+</svg>

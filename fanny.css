@@ -1,0 +1,300 @@
+
+ html {
+  font-size: 62.5%;
+}
+
+body {
+margin: 0;
+padding: 0;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p {
+font-size: 16px;
+}
+.block{
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 60px;
+margin-left: 1200px;
+}
+
+
+a{
+  font-size: 20px;
+}
+/*SECTION EN GENERAL*/ 
+
+section { 
+height: 1000px; 
+box-sizing: border-box;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center; 
+flex-direction: column;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+
+}
+
+
+/*MENU*/ 
+#boutonMenu{
+  background-color: black;
+  border: dashed 1px white;
+  width: 110px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+  text-transform: uppercase;
+  font-size: 18px;
+  margin-left: 1450px;
+  margin-top: 50px;
+}
+.dropdown-menu{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 14px;
+}
+ /*1SECTION*/
+ .introduction{ 
+  background-image: url(image/TABLETTE.jpg); 
+}
+ /*LOGO ANIME*/
+ .main-logo{
+   margin: auto;
+   margin-top: 200px; 
+ }
+ .big-arrow{
+   margin-top: 220px;
+   animation: bounce 0.7s ease infinite;
+ }
+ @keyframes bounce{
+  from {top: 106px;}
+  50%  {top: 86px;}
+  to   {top: 106px;}
+}
+
+/*CHEVRON*/
+.arrow-top{
+margin-left: 1480px;
+margin-top: 250px;
+}
+  
+ /*SECTION QUI*/
+.float-block{
+background-image: url(./image/pois-violet.svg);
+height: 300px;
+background-repeat: repeat;
+background-size: cover;
+background-size: 1%;
+}
+.float-word{
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 120px;
+text-shadow:rgba(131, 117, 166, 0.7) 10px 1px;
+line-height: 150px;  
+text-align: center;
+opacity: 0;
+transition: all 1s linear;
+}
+.fade-in {
+  opacity: 1;
+}
+  
+.float-squared{
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 60px;
+margin-left: 760PX;
+text-align: center;
+line-height: 60px;
+background-color: white;
+border: 1px solid #393054;
+width: 200px;
+height: 70px;
+-webkit-animation: slide-right 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+@keyframes slide-right {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(100px);
+            transform: translateX(100px);
+  }
+} 
+
+.float-image{
+width: 50%;
+margin: auto;
+margin-top: -590px;
+ -webkit-animation: slide-top 5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	       
+}
+
+@-webkit-keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(50px);
+            transform: translateY(50px);
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+ 
+ /*photo QUI*/
+.box{
+position: relative;
+margin: auto;
+margin-top: -550px;
+background-color: rgba(0, 0, 0, 0.1);
+width: 700px;
+height: 400px;
+text-align: justify;
+padding: 40px;
+} 
+.box1{
+opacity: 0;
+transition: all 0.4s linear;
+}
+.fade-in {
+  opacity: 1;
+} 
+.white-dot{
+background-color: rgba(255, 241, 0, 0.3);
+width: 370px;
+height: 900px;
+margin-top: -400px;
+background-image: url(./image/pois-blanc.svg);
+}
+.purple-dot{
+background-image: url(./image/pois-violet.svg);
+width: 700px;
+height: 550px;
+background-repeat: repeat;
+background-size: cover;
+background-size: 3%;
+margin-left: 200px;
+margin-top: -500px;
+}
+.qui{
+background-image: url(./image/pois-violet.svg);
+width:600px ;
+height: 500px;
+background-repeat: repeat;
+margin-left: 100px;
+opacity: 0;
+transition: all 0.8s linear;
+}
+.fade-in {
+  opacity: 1;
+} 
+.stripe{
+background-image: url(./image/rayure-jaune-gris.svg);
+width: 1280px;
+height: 45px;
+background-size: cover;
+background-repeat: repeat;
+margin-top: -500px;
+margin-left: 420px;
+}
+ /*SECTION les chocolats*/
+
+#les-chocolats{
+margin-top: 400px;
+}
+
+
+.choco-section{
+display: flex;
+flex-direction: row;
+align-items: center;
+width: 1700px;
+margin: auto;
+margin-top: 90px;
+}
+.yellow-dot{
+background-image: url(./image/pois-jaune.svg);
+width: 400px;
+height: 600px;
+}
+.stripe-pattern{
+background-image: url(./image/carré-rayure.svg);
+width: 600px;
+height: 750px;
+background-repeat: repeat;
+background-size: cover;
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+.choco-purple-dot{
+background-image: url(./image/pois-violet.svg);
+width: 700px;
+height: 550px;
+background-repeat: repeat;
+background-size: cover;
+background-size: 3%;
+}
+.choco-photo{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+justify-content: space-between;
+width: 1650px;
+margin: auto;
+margin-top: -600px;
+opacity: 0;
+transition: all 1s linear;
+}
+.fade-in {
+  opacity: 1;
+}
+
+ /*choco photos+zoom*/
+.zoom {
+height:446px;
+width:341px;
+}
+.zoom img {
+height:446px;
+width:341px;
+}
+.zoom img:hover {
+height:549px;
+width: 411.5px;
+}
+
+.desciption{
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 28px;
+display: block;
+margin-top: 90px;
+margin-left: 1000px;
+}
+
+h1{
+  color:pink;
+}
+.slidein {
+  animation-duration: 5s;
+  animation-name: slidein;
+  animation-iteration-count: 1;
+}
+
+.stopped {
+  animation-name: none;
+}
+
+@keyframes slidein {
+  0% {
+    margin-left: 0%;
+  }
+  50% {
+    margin-left: 50%;
+  }
+  100% {
+    margin-left: 0%;
+  }
+}
